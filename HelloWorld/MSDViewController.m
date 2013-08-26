@@ -21,17 +21,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    //Let's initialize an instance of MSDGreeter
-    MSDGreeter *greeter = [[MSDGreeter alloc] init];
-    
-    //We'll call the class method HelloWorld it'll return:
-    //Hello World!
-    NSLog(@"%@", [MSDGreeter HelloWorld]);
-
-    //We'll call the instance method HelloWorld it'll return:
-    //Hello World!
-    NSLog(@"%@", [greeter HelloWorld]);
 }
 
 
