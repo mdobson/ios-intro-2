@@ -23,6 +23,7 @@
 		6359907817CA430D003A4E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6359905317CA430D003A4E92 /* Foundation.framework */; };
 		6359908017CA430D003A4E92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6359907E17CA430D003A4E92 /* InfoPlist.strings */; };
 		6359908317CA430D003A4E92 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359908217CA430D003A4E92 /* HelloWorldTests.m */; };
+		63601AE417CB8DF900BE513F /* MSDGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63601AE317CB8DF900BE513F /* MSDGreeter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		6359907F17CA430D003A4E92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6359908117CA430D003A4E92 /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		6359908217CA430D003A4E92 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		63601AE217CB8DF900BE513F /* MSDGreeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDGreeter.h; sourceTree = "<group>"; };
+		63601AE317CB8DF900BE513F /* MSDGreeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDGreeter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				6359906C17CA430D003A4E92 /* MSDViewController.h */,
 				6359906D17CA430D003A4E92 /* MSDViewController.m */,
 				6359905817CA430D003A4E92 /* Supporting Files */,
+				63601AE217CB8DF900BE513F /* MSDGreeter.h */,
+				63601AE317CB8DF900BE513F /* MSDGreeter.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				6359905E17CA430D003A4E92 /* main.m in Sources */,
 				6359906217CA430D003A4E92 /* MSDAppDelegate.m in Sources */,
 				6359906E17CA430D003A4E92 /* MSDViewController.m in Sources */,
+				63601AE417CB8DF900BE513F /* MSDGreeter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				6359908817CA430D003A4E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6359908917CA430D003A4E92 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				6359908B17CA430D003A4E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

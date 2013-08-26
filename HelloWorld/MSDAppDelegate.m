@@ -5,6 +5,8 @@
 //  Created by Matthew Dobson on 8/25/13.
 //  Copyright (c) 2013 Matthew Dobson. All rights reserved.
 //
+//  The implementation of our App Delegate. Here we can set logic to execute when our app opens and closes.
+//  We can also implement what orientation our app conforms to, and other special functionality like push notifications.
 
 #import "MSDAppDelegate.h"
 
