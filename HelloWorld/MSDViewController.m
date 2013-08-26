@@ -9,7 +9,6 @@
 //  Properties to access user interface objects are wired up in the .storyboard file.
 
 #import "MSDViewController.h"
-#import "MSDGreeter.h"
 
 @interface MSDViewController ()
 
